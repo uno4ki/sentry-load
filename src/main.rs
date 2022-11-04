@@ -152,6 +152,7 @@ fn main() {
 
     // Initialize tracer
     tracing_subscriber::registry()
+        //.with(tracing_subscriber::fmt::layer())
         .with(sentry_tracing::layer())
         .init();
 
