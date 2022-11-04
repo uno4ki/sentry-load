@@ -1,0 +1,11 @@
+[package]
+name = "sentry_load"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+sentry = "0.27.0"
+sentry-tracing = "0.27.0"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
